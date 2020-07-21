@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@400;700&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 120vh;
+	/* background-image: none;
+	background-repeat: no-repeat; */
+	background-size: 100% 100%;
+    position: relative;
+    
+	/* clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0); */
+	
+}
+
+.header:before{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	/* opacity: .3; */
+	z-index: -1;
+    /* background: linear-gradient(90deg, rgba(189,189,198,1) 0%, rgba(12,103,150,1) 100%, rgba(154,154,154,1) 100%); */
+    /* background:#4d7bd6; */
+    background: #141313;
+}
+
+.navbar:before{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	/* opacity: .3; */
+	z-index: -1;
+	/* background: linear-gradient(90deg, rgba(189,189,198,1) 0%, rgba(12,103,150,1) 100%, rgba(154,154,154,1) 100%); */
+    background: #141313;
+}
+
+.navbar .homebtn, .aboutbtn, .servicesbtn, .contactbtn{
+    /* background-color: #f0f5ff; */
+    /* border-radius: 2px !important; */
+    margin: 0 10px;
+    /* border: 1px solid black; */
+    color: #ff845e !important;
+    
+}
+
+.navbar .navbar-brand{
+    color: #ff845e !important;
+    text-transform: lowercase !important;
+}
+
+.picture-div{
+    
+   margin-bottom: 20px;
+    
+    
+}
+
+.center-div{
+	/* width: auto;
+	height: auto;
+	position: absolute;
+	top: 40%;
+	left: 50vw; */
+	
+	/* text-align: center; */
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+    top: 50%;
+}
+
+.center-div h1{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.center-div p{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.hellospan ,.samspan{
+    color: #ff845e;
+}
+
+
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.header-buttons a:hover{
+	color: black;
+	background: #ff845e;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
